@@ -1,0 +1,12 @@
+// Palindrome Check
+
+let str = "mam";
+
+str = str.toLowerCase();
+let reverse = str.split("").reverse().join("");
+
+if (str === reverse) {
+  console.log("Palindrome");
+} else {
+  console.log("Not Palindrome");
+}
